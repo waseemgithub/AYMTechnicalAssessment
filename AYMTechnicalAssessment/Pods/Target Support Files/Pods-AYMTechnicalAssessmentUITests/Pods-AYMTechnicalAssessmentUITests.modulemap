@@ -1,0 +1,6 @@
+framework module Pods_AYMTechnicalAssessmentUITests {
+  umbrella header "Pods-AYMTechnicalAssessmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
