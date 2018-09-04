@@ -9,7 +9,11 @@
 import Foundation
 struct AYMTAError {
     enum Code: Int {
-        case unableToFindLocation  = 1000
+        case urlError                 = -1000
+        case networkRequestFailed     = -1001
+        case jsonSerializationFailed  = -1002
+        case jsonParsingFailed        = -1003
+        case unableToFindLocation  = -1004
     }
     let errorCode: Code
 }
