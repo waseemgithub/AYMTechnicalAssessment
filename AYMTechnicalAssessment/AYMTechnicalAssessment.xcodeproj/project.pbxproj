@@ -193,7 +193,7 @@
 				0C34227D213C4FCD0082FD72 /* Utility */,
 				0C72E95C213BE53300D41E8E /* Models */,
 				0C72E95E213BE54A00D41E8E /* ServiceMangar */,
-				0C72E95D213BE53E00D41E8E /* Controller */,
+				0C72E95D213BE53E00D41E8E /* Views */,
 			);
 			path = WeatherModule;
 			sourceTree = "<group>";
@@ -226,14 +226,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		0C72E95D213BE53E00D41E8E /* Controller */ = {
+		0C72E95D213BE53E00D41E8E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				0C72E95F213BE5A500D41E8E /* Weather.storyboard */,
 				0C72E961213BE73400D41E8E /* WeatherViewController.swift */,
 				0C342276213C369E0082FD72 /* ForecastCollectionViewCell.swift */,
 			);
-			path = Controller;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		0C72E95E213BE54A00D41E8E /* ServiceMangar */ = {
