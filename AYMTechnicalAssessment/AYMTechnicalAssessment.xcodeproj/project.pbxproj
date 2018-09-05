@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C020F3B21403D8E008A5E62 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C020F3A21403D8E008A5E62 /* RestaurantTableViewController.swift */; };
+		0C19BBFE21405418009AAEB3 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19BBFD21405418009AAEB3 /* arrow.png */; };
 		0C342277213C369F0082FD72 /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C342276213C369E0082FD72 /* ForecastCollectionViewCell.swift */; };
 		0C342279213C4ECA0082FD72 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C342278213C4ECA0082FD72 /* Weather.swift */; };
 		0C34227C213C4F940082FD72 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34227B213C4F940082FD72 /* Forecast.swift */; };
@@ -26,7 +28,6 @@
 		0C72E960213BE5A500D41E8E /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C72E95F213BE5A500D41E8E /* Weather.storyboard */; };
 		0C72E962213BE73400D41E8E /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C72E961213BE73400D41E8E /* WeatherViewController.swift */; };
 		0C72E967213BECC000D41E8E /* Restaurant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C72E966213BECC000D41E8E /* Restaurant.storyboard */; };
-		0C72E969213BECEC00D41E8E /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C72E968213BECEC00D41E8E /* RestaurantsViewController.swift */; };
 		0CD9F618213BCB2F00B62A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9F617213BCB2F00B62A3A /* AppDelegate.swift */; };
 		0CD9F61A213BCB2F00B62A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9F619213BCB2F00B62A3A /* ViewController.swift */; };
 		0CD9F61D213BCB2F00B62A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD9F61B213BCB2F00B62A3A /* Main.storyboard */; };
@@ -34,6 +35,10 @@
 		0CD9F622213BCB3000B62A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD9F620213BCB3000B62A3A /* LaunchScreen.storyboard */; };
 		0CD9F62D213BCB3000B62A3A /* AYMTechnicalAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9F62C213BCB3000B62A3A /* AYMTechnicalAssessmentTests.swift */; };
 		0CD9F638213BCB3000B62A3A /* AYMTechnicalAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9F637213BCB3000B62A3A /* AYMTechnicalAssessmentUITests.swift */; };
+		0CDD3782214046AA007BF450 /* resturant.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CDD3781214046AA007BF450 /* resturant.png */; };
+		0CDD378421404722007BF450 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD378321404722007BF450 /* RestaurantTableViewCell.swift */; };
+		0CDD37862140498A007BF450 /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CDD378521404989007BF450 /* loc.png */; };
+		0CDD378821404B05007BF450 /* kitchen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CDD378721404B05007BF450 /* kitchen.png */; };
 		58985653B426FD575EC1C822 /* Pods_AYMTechnicalAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11224E663378C554D4C9845 /* Pods_AYMTechnicalAssessmentUITests.framework */; };
 		DD3B7C38CF80A2BF883E1B64 /* Pods_AYMTechnicalAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D0FCF328A0705F48937EE9 /* Pods_AYMTechnicalAssessmentTests.framework */; };
 		E1E73ADF8A16B5659E243488 /* Pods_AYMTechnicalAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F344312C5FA08650304297 /* Pods_AYMTechnicalAssessment.framework */; };
@@ -57,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C020F3A21403D8E008A5E62 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		0C19BBFD21405418009AAEB3 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		0C342276213C369E0082FD72 /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 		0C342278213C4ECA0082FD72 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		0C34227B213C4F940082FD72 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
@@ -76,7 +83,6 @@
 		0C72E95F213BE5A500D41E8E /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
 		0C72E961213BE73400D41E8E /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		0C72E966213BECC000D41E8E /* Restaurant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Restaurant.storyboard; sourceTree = "<group>"; };
-		0C72E968213BECEC00D41E8E /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
 		0CD9F614213BCB2F00B62A3A /* AYMTechnicalAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYMTechnicalAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD9F617213BCB2F00B62A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD9F619213BCB2F00B62A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +96,10 @@
 		0CD9F633213BCB3000B62A3A /* AYMTechnicalAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYMTechnicalAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD9F637213BCB3000B62A3A /* AYMTechnicalAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYMTechnicalAssessmentUITests.swift; sourceTree = "<group>"; };
 		0CD9F639213BCB3000B62A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDD3781214046AA007BF450 /* resturant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resturant.png; sourceTree = "<group>"; };
+		0CDD378321404722007BF450 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		0CDD378521404989007BF450 /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loc.png; sourceTree = "<group>"; };
+		0CDD378721404B05007BF450 /* kitchen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitchen.png; sourceTree = "<group>"; };
 		1BEF461F1004A6B7DBB06F28 /* Pods-AYMTechnicalAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYMTechnicalAssessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYMTechnicalAssessment/Pods-AYMTechnicalAssessment.release.xcconfig"; sourceTree = "<group>"; };
 		7A39138CE63518EF9CB33C0C /* Pods-AYMTechnicalAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYMTechnicalAssessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYMTechnicalAssessment/Pods-AYMTechnicalAssessment.debug.xcconfig"; sourceTree = "<group>"; };
 		7A87138A2C3DA251862AB0D1 /* Pods-AYMTechnicalAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYMTechnicalAssessmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYMTechnicalAssessmentUITests/Pods-AYMTechnicalAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +211,7 @@
 		0C72E954213BD2AA00D41E8E /* RestaurantModule */ = {
 			isa = PBXGroup;
 			children = (
+				0CDD377F2140468F007BF450 /* resources */,
 				0C72E963213BEC3700D41E8E /* Models */,
 				0C72E964213BEC4D00D41E8E /* Controller */,
 				0C72E965213BEC5900D41E8E /* ServiceManager */,
@@ -256,7 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				0C72E966213BECC000D41E8E /* Restaurant.storyboard */,
-				0C72E968213BECEC00D41E8E /* RestaurantsViewController.swift */,
+				0C020F3A21403D8E008A5E62 /* RestaurantTableViewController.swift */,
+				0CDD378321404722007BF450 /* RestaurantTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -320,6 +332,25 @@
 				0CD9F639213BCB3000B62A3A /* Info.plist */,
 			);
 			path = AYMTechnicalAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		0CDD377F2140468F007BF450 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD37802140469C007BF450 /* Images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0CDD37802140469C007BF450 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C19BBFD21405418009AAEB3 /* arrow.png */,
+				0CDD378721404B05007BF450 /* kitchen.png */,
+				0CDD378521404989007BF450 /* loc.png */,
+				0CDD3781214046AA007BF450 /* resturant.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		8E83B0C87D4E9717657DAC70 /* Frameworks */ = {
@@ -453,8 +484,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDD37862140498A007BF450 /* loc.png in Resources */,
+				0CDD378821404B05007BF450 /* kitchen.png in Resources */,
 				0CD9F622213BCB3000B62A3A /* LaunchScreen.storyboard in Resources */,
+				0C19BBFE21405418009AAEB3 /* arrow.png in Resources */,
 				0C72E960213BE5A500D41E8E /* Weather.storyboard in Resources */,
+				0CDD3782214046AA007BF450 /* resturant.png in Resources */,
 				0C342295213C6F220082FD72 /* weathericons-regular-webfont.ttf in Resources */,
 				0CD9F61F213BCB3000B62A3A /* Assets.xcassets in Resources */,
 				0CD9F61D213BCB2F00B62A3A /* Main.storyboard in Resources */,
@@ -522,10 +557,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AYMTechnicalAssessment/Pods-AYMTechnicalAssessment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,8 +595,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDD378421404722007BF450 /* RestaurantTableViewCell.swift in Sources */,
+				0C020F3B21403D8E008A5E62 /* RestaurantTableViewController.swift in Sources */,
 				0C342289213C53920082FD72 /* Observable.swift in Sources */,
-				0C72E969213BECEC00D41E8E /* RestaurantsViewController.swift in Sources */,
 				0C72E958213BD36C00D41E8E /* Error.swift in Sources */,
 				0C342291213C56C70082FD72 /* OpenWeatherMapService.swift in Sources */,
 				0C342281213C50CA0082FD72 /* Temperature.swift in Sources */,

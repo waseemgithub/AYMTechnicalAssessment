@@ -29,7 +29,7 @@ struct AppStrings {
     static let WeatherActionTitle = "WEATHER MODULE"
     static let RestaurantActionTitle = "RESTAURANT MODULE"
     static let WeatherController = "WeatherViewController"
-    static let RestaurantController = "RestaurantsViewController"
+    static let RestaurantController = "RestaurantTableViewController"
     static let ReusableIdentifier = "forecastCell"
 }
 //MARK: ErrorMessages

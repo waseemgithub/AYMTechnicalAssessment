@@ -6,6 +6,7 @@ target 'AYMTechnicalAssessment' do
   use_frameworks!
 
     pod 'SwiftyJSON'
+    pod 'Cosmos'
   # Pods for AYMTechnicalAssessment
 
   target 'AYMTechnicalAssessmentTests' do

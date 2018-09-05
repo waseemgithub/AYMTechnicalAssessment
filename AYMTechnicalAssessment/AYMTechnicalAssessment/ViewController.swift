@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     }
     @IBAction func restaurantAction(_ sender: Any) {
         
-        if let restaurantController:UIViewController = StoryBoard.Restaurant.instantiateViewController(withIdentifier: AppStrings.RestaurantController){
+        if let restaurantController:UITableViewController = StoryBoard.Restaurant.instantiateViewController(withIdentifier: AppStrings.RestaurantController) as? UITableViewController{
             self.navigationController?.pushViewController(restaurantController, animated: true);
         }
     }
